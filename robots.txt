@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://your-username.github.io/your-repo-name/sitemap.xml
+Sitemap: https://TV2007.github.io/Bucky-Marty/sitemap.xml

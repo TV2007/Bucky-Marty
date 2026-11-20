@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/</loc></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/about.html</loc></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/archive.html</loc></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/series.html?s=mycomic</loc></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/reader.html?s=mycomic&ch=chapter-01</loc></url>
+  <url><loc>https://TV2007.github.io/Bucky-Marty/</loc></url>
+  <url><loc>https://TV2007.github.io/Bucky-Marty/about.html</loc></url>
+  <url><loc>https://TV2007.github.io/Bucky-Marty/archive.html</loc></url>
+  <url><loc>https://TV2007.github.io/Bucky-Marty/series.html?s=mycomic</loc></url>
+  <url><loc>https://TV2007.github.io/Bucky-Marty/reader.html?s=mycomic&ch=chapter-01</loc></url>
 </urlset>

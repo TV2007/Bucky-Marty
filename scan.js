@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 
 // 🔧 Replace this with your actual GitHub Pages URL before you go live
-const BASE_URL = 'https://YOUR-USERNAME.github.io/YOUR-REPO-NAME';
+const BASE_URL = 'https://TV2007.github.io/Bucky-Marty';
 
 const ROOT = __dirname;
 const COMICS_DIR = path.join(ROOT, 'comics');
