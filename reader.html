@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reader — Your Comic Site</title>
+  <meta name="description" content="Read the latest chapter.">
+
+  <!-- 🔗 SOCIAL SHARING -->
+  <meta property="og:title" content="Reader — Your Comic Site">
+  <meta property="og:description" content="Read the latest chapter.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/reader.html">
+  <meta property="og:image" content="https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/assets/logo.png">
+
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="reader-body">
+
+  <div class="reader-bg-wrap" id="reader-bg"></div>
+
+  <div class="reader-toolbar">
+    <a href="index.html" class="toolbar-btn">🏠</a>
+    <a href="#" id="series-link" class="toolbar-btn">Series</a>
+    <select id="chapter-select"></select>
+    <span class="spacer"></span>
+    <button class="toolbar-btn" id="zoom-btn" title="Zoom (Z)">⤢</button>
+    <button class="toolbar-btn" id="help-btn" title="Shortcuts (?)">?</button>
+  </div>
+
+  <main id="reader-main">
+    <div class="reader-page-wrap" id="reader-page-wrap">
+      <img id="page-image" src="" alt="Comic page">
+      <div class="reader-click-zones">
+        <div class="zone" id="zone-prev"></div>
+        <div class="zone" id="zone-next"></div>
+      </div>
+    </div>
+    <div class="reader-pagenum" id="page-counter"></div>
+    <div class="reader-nav-footer">
+      <button class="toolbar-btn" id="prev-btn">← Prev</button>
+      <button class="toolbar-btn" id="next-btn">Next →</button>
+    </div>
+  </main>
+
+  <div class="lightbox-overlay" id="lightbox">
+    <img id="lightbox-img" src="" alt="Zoomed comic page">
+  </div>
+
+  <div class="shortcuts-panel" id="shortcuts-panel">
+    <h4>Keyboard Shortcuts</h4>
+    <div class="row"><span>Next page</span><kbd>→ / Space</kbd></div>
+    <div class="row"><span>Previous page</span><kbd>←</kbd></div>
+    <div class="row"><span>Zoom</span><kbd>Z</kbd></div>
+    <div class="row"><span>This panel</span><kbd>?</kbd></div>
+    <div class="row"><span>Close</span><kbd>Esc</kbd></div>
+  </div>
+
+  <script src="js/reader.js"></script>
+</body>
+</html>

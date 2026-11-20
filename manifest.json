@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-11-19T00:00:00.000Z",
+  "series": [
+    {
+      "slug": "mycomic",
+      "title": "My Comic",
+      "shortName": "MC",
+      "description": "A placeholder series — rename this folder and swap in your own comic!",
+      "accentColor": "#7b61ff",
+      "theme": null,
+      "backgroundMode": "cover",
+      "cover": "cover.jpg",
+      "header": null,
+      "bg": null,
+      "bgPause": null,
+      "chapters": [
+        {
+          "slug": "chapter-01",
+          "title": "Chapter 1: The Beginning",
+          "date": "2026-11-19",
+          "pages": ["01.jpg", "02.jpg", "03.jpg"],
+          "bg": null
+        }
+      ]
+    }
+  ]
+}

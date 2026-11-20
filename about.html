@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Your Comic Site</title>
+  <meta name="description" content="About the artist behind Your Comic Site.">
+
+  <!-- 🔗 SOCIAL SHARING -->
+  <meta property="og:title" content="About — Your Comic Site">
+  <meta property="og:description" content="About the artist behind Your Comic Site.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/about.html">
+  <meta property="og:image" content="https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/assets/logo.png">
+
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="site-brand" href="index.html">
+        <img src="assets/logo.png" alt="" onerror="this.style.display='none'">
+        Your Comic Site
+      </a>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="archive.html">Archive</a>
+        <a href="about.html" class="active">About</a>
+        <a href="#" class="nav-donate" target="_blank" rel="noopener">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="about-wrap">
+      <img class="artist-photo" src="assets/artist.png" alt="The artist" onerror="this.onerror=null; this.src='assets/artist.jpg'; this.onerror=function(){this.outerHTML='<div class=artist-placeholder>🎨</div>'}">
+      <h1>About the Artist</h1>
+
+      <div class="about-bio">
+        <!-- ✏️ WRITE YOUR BIO HERE -->
+        <p>Hi, I'm the artist behind this site! Replace this paragraph with your own introduction — who you are, how long you've been drawing, and what got you into making comics.</p>
+        <p>Tell readers what this comic is about and what inspired it. A sentence or two about your art style or influences goes a long way.</p>
+        <p>Thanks for reading — new pages go up regularly, so check back often!</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-copy">&copy; <span class="js-year"></span> YOUR NAME HERE.</p>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.js-year').forEach(el => el.textContent = new Date().getFullYear());
+  </script>
+</body>
+</html>
